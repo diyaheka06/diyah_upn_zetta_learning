@@ -1,0 +1,29 @@
+body{
+    margin: 30px;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    justify-content: center;
+    align-items: center;
+    background-color:lightgoldenrodyellow;
+}
+.heading{
+    text-align: center;
+}
+.table
+{
+    background-color:beige;
+}
+.table img{
+    height: 100px;
+}
+.table thead{
+    text-align: center;
+    background-color: khaki;
+    font-weight: bold;
+}
+.table tr{
+    align-items: center;
+}
+.table td{
+    align-items: center;
+}
