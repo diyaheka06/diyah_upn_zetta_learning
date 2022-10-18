@@ -47,3 +47,6 @@ body{
 .body-card span ul{
     list-style-type: square;
 }
+.body-card audio{
+    align-items: center;
+}
