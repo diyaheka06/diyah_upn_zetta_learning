@@ -1,0 +1,39 @@
+body{
+    margin:0px;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    justify-content: center;
+    align-items: center;
+    background-color:cornsilk;
+}
+h1{
+    text-align: center;
+    color: black;
+}
+.container {
+    padding: 0;
+    margin: auto;
+    display: span 8;
+    grid-template-columns: repeat(8,2fr);
+    margin: 5px 15px;
+    gap: 20px;
+}
+.card {
+    display: grid;
+    width: 100%;
+    height: 300px;
+    grid-column: 4span;
+    margin: 10px 0;
+    border-radius: 15px;
+    position: relative;
+    box-shadow: 0 10px 10px rgba(0,0,0,.1);
+    background-color:beige;
+    overflow: hidden;
+}
+.body-card {
+    padding: 10px 15px;
+    overflow: auto;
+}
+.body-card img{
+    width: 20px;
+}

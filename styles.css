@@ -7,13 +7,18 @@ body{
     background-color:cornsilk;
 }
 header{
-    width: 100%;
-    height: 100%;
+    background-color:khaki;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 50px 50px 50px 50px;
+    position: fixed;
+    z-index: 1;
 }
 h1{
     text-align: center;
     color: black;
-    
 }
 p{
     text-align: center;
@@ -26,7 +31,6 @@ p{
     grid-template-columns: repeat(3,1fr);
     margin: 5px 15px;
     gap: 20px;
-    position: relative;
 }
 .card {
     display: grid;
@@ -76,8 +80,14 @@ button{
 tr:nth-child(odd){
     background-color: white;
 }
-.card:nth-row(1){
-    margin-top: 0%;
+.card:nth-child(1){
+    margin-top: 210px;
+}
+.card:nth-child(2){
+    margin-top: 210px;
+}
+.card:nth-child(3){
+    margin-top: 210px;
 }
 .card:nth-row(3){
     margin-bottom: 0%;
@@ -89,7 +99,6 @@ tr:nth-child(odd){
 	text-align: left;
 	font: bold 16px sans-serif;
 	padding: 50px 50px 60px 50px;
-	margin-top: 80px;
 }
 .footer-distributed .footer-links{
     text-align: center;
