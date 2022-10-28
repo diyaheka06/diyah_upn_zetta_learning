@@ -1,0 +1,6 @@
+{
+  "include": ["src"],
+  "compilerOptions": {
+    "outDir": "./build"                        /* Skip type checking all .d.ts files. */
+  }
+}
